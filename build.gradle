@@ -1,0 +1,28 @@
+apply plugin: 'java-library'
+apply plugin: 'eclipse'
+
+compileJava.options.encoding = 'UTF-8'
+compileTestJava.options.encoding = 'UTF-8'
+
+repositories {
+    // Use Maven Central for resolving dependencies.
+    mavenCentral()
+}
+
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+dependencies {
+    implementation("com.github.gcajal:ClassRoom-Notifier:main-SNAPSHOT")
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+    implementation 'com.sun.mail:javax.mail:1.6.2'
+
+
+}
+test {
+    useJUnitPlatform()
+}
