@@ -1,7 +1,6 @@
 
 import classroom.notifier.implement.MedioComunicacion;
 import email.Email;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
