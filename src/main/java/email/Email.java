@@ -1,26 +1,21 @@
 package email;
 
-import classroom.notifier.entity.Alumno;
-import classroom.notifier.implement.MedioComunicacion;
-
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.List;
+import java.util.Observable;
+import java.util.Observer;
 import java.util.Properties;
 
-public class Email implements MedioComunicacion {
+public class Email implements Observer {
     public String name = "Email";
-    @Override
-    public void Notificar(String Materia, String Aula, List<Alumno> destinatarios) {
-        String msj = "La materia: "+ Materia+" cambio a Aula -> "+ Aula;
-        String subject = "Cambio de Aula de la materia->" + Materia;
+
+    public void sendMail(String body){
+
+        String subject = "Aviso de cambio de aula";
         String dest = "fabian.mamani@hotmail.com";
-        sendMail(dest, subject, msj);
 
-    }
-
-    public void sendMail(String to, String subject, String body){
         final String username = "classroomnotifier3@gmail.com"; // tu correo
         final String password = "nnefcpfpsacpzxnb"; // tu contraseña
         //Grupo4.2024
@@ -40,7 +35,7 @@ public class Email implements MedioComunicacion {
         try {
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress(username));
-            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(to));
+            message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(dest));
             message.setSubject(subject);
             message.setText(body);
 
@@ -54,7 +49,7 @@ public class Email implements MedioComunicacion {
 
 
     @Override
-    public String getMedio() {
-        return name;
+    public void update(Observable o, Object arg) {
+        sendMail(new String((String) arg));
     }
 }

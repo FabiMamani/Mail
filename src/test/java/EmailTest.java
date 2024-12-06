@@ -1,16 +1,17 @@
 
-import classroom.notifier.implement.MedioComunicacion;
 import email.Email;
 import org.junit.jupiter.api.Test;
 
+import java.util.Observer;
 
 public class EmailTest {
-    public MedioComunicacion notificador;
 
     @Test
     public void EmailTest(){
-        notificador = new Email();
-        notificador.Notificar("Taller de Tesina","7075", null);
+        Observer notificador = new Email();
+
+        String msj = "La materia SOR2 cambio al aula A07272";
+        notificador.update(null, msj);
     }
 
 
