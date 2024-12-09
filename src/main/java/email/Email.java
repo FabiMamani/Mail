@@ -1,11 +1,13 @@
 package email;
 
+import classroom.notifier.implement.Observer;
+
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 import java.util.List;
 import java.util.Observable;
-import java.util.Observer;
+
 import java.util.Properties;
 
 public class Email implements Observer {
@@ -47,9 +49,8 @@ public class Email implements Observer {
         }
     }
 
-
     @Override
-    public void update(Observable o, Object arg) {
-        sendMail(new String((String) arg));
+    public void update(Object data) {
+        sendMail(new String((String) data));
     }
 }

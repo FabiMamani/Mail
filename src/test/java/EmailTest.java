@@ -1,8 +1,9 @@
 
+import classroom.notifier.implement.Observer;
 import email.Email;
 import org.junit.jupiter.api.Test;
 
-import java.util.Observer;
+
 
 public class EmailTest {
 
@@ -11,8 +12,6 @@ public class EmailTest {
         Observer notificador = new Email();
 
         String msj = "La materia SOR2 cambio al aula A07272";
-        notificador.update(null, msj);
+        notificador.update(msj);
     }
-
-
 }
