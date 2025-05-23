@@ -1,12 +1,13 @@
-package email;
+package notificadores;
+
 
 import classroom.notifier.implement.Observer;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-import java.util.List;
-import java.util.Observable;
+
+
 
 import java.util.Properties;
 

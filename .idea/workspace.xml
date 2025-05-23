@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="128df791-55c0-42cc-977f-8ee1a4cc627a" name="Changes" comment="project updated">
+    <list default="true" id="128df791-55c0-42cc-977f-8ee1a4cc627a" name="Changes" comment="updated method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/email/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/email/Email.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Mail" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mail" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Mail" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -70,6 +81,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/GUSTAVO/IdeaProjects/classroom-extensiones&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
 }</component>
@@ -126,6 +138,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="Mail [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="Mail [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,8 +204,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.EmailTest.EmailTest" />
-        <item itemvalue="Gradle.Mail [clean]" />
         <item itemvalue="Gradle.Mail [dependencies]" />
+        <item itemvalue="Gradle.Mail [clean]" />
+        <item itemvalue="Gradle.Mail [build]" />
         <item itemvalue="Gradle.EmailTest" />
       </list>
     </recent_temporary>
@@ -214,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733520854487</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated method">
+      <created>1733785801287</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733785801287</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +285,7 @@
     <MESSAGE value="add class and dependencies" />
     <MESSAGE value="merge with mail" />
     <MESSAGE value="project updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="project updated" />
+    <MESSAGE value="updated method" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated method" />
   </component>
 </project>

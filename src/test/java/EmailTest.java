@@ -1,6 +1,6 @@
 
 import classroom.notifier.implement.Observer;
-import email.Email;
+import notificadores.Email;
 import org.junit.jupiter.api.Test;
 
 
