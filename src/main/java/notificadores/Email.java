@@ -1,7 +1,7 @@
 package notificadores;
 
 
-import classroom.notifier.implement.Observer;
+import classroom.notifier.interfaces.Observer;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

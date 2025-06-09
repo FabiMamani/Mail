@@ -7,7 +7,8 @@
     <list default="true" id="128df791-55c0-42cc-977f-8ee1a4cc627a" name="Changes" comment="updated method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/email/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/email/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/notificadores/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/notificadores/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EmailTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,8 +206,8 @@
       <list>
         <item itemvalue="Gradle.EmailTest.EmailTest" />
         <item itemvalue="Gradle.Mail [dependencies]" />
-        <item itemvalue="Gradle.Mail [clean]" />
         <item itemvalue="Gradle.Mail [build]" />
+        <item itemvalue="Gradle.Mail [clean]" />
         <item itemvalue="Gradle.EmailTest" />
       </list>
     </recent_temporary>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1733785801287</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updated method">
+      <created>1748040133886</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748040133886</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
